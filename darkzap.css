@@ -1,0 +1,63 @@
+:root {
+    --conversation-panel-background: #101d25;
+    --intro-background: #101d25;
+    --background-default: #101d25;
+    --border-panel: #101d25;
+    --background-default-active: #1c272d;
+    --background-default-hover: #414a51;
+    --border-chatlist: #101d25;
+    --butterbar-background-default: #101d25;
+    --rich-text-panel-background: #101d25;
+    --panel-background-lighter: #101d25;
+    --panel-background: #232d36;
+    --primary-strong: #d1d8dd;
+    --primary-strong-rgb: 209, 216, 221;
+    --secondary: #8c959a;
+    --secondary-stronger:: #8c959a;
+    --secondary-lighter: #8c959a;
+    --icon-lighter: #8c959a
+        
+    --incoming-background: #232d36;
+    --incoming-background-deeper: #232d36;
+    --primary-stronger: #cbd4d9;
+    --icon-strong-rgb: #d1d8dd;
+    --unread-background: rgb(0,0,0,0);
+    --notification-e2e-background: #232d36;
+    
+    --compose-background: #cbd4d9;
+}
+body {
+    color: #d1d8dd;
+}
+.app-wrapper-web {
+    background-color: #101d25;
+}
+._347-w::after {
+    background-color: #101d25 !important;
+}
+._2y17h {
+    border-right: none;
+}
+.m6ZEb {
+    display: none !important;
+}
+.YUoyu {
+    opacity: 0.03 !important;
+    background-color: white;
+}
+
+.MVjBr {
+    background-color: #232d36 !important;
+}
+.tail-container {
+    display: none !important;
+}
+._3Ye_R {
+    color: #d1d8dd;
+}
+._1i1U7.jZ4tp {
+    background: none !important;
+}
+.message-in ._3JaNE ._2R8MP, html[dir] .message-in ._3JaNE ._2Ll5c {
+    background-color: #232d36 !important;
+}
