@@ -1,4 +1,6 @@
 :root {
+    --gray-60: #101d25;
+    --border-default: #101d25;
     --conversation-panel-background: #101d25;
     --intro-background: #101d25;
     --background-default: #101d25;
@@ -12,17 +14,35 @@
     --panel-background: #232d36;
     --primary-strong: #d1d8dd;
     --primary-strong-rgb: 209, 216, 221;
+    --primary-stronger: #cbd4d9;
     --secondary: #8c959a;
     --secondary-stronger:: #8c959a;
     --secondary-lighter: #8c959a;
-    --icon-lighter: #8c959a
+    --icon-lighter: #8c959a;
+    --icon-strong: #d1d8dd;
         
+    --system-message-background: #232d36;
+    --notification-text: #d1d8dd;
+    --system-message-text: #d1d8dd;
     --incoming-background: #232d36;
     --incoming-background-deeper: #232d36;
-    --primary-stronger: #cbd4d9;
+    --outgoing-background: #232d36;
+    --outgoing-background-rgb: (16, 29, 37);
     --icon-strong-rgb: #d1d8dd;
     --unread-background: rgb(0,0,0,0);
+    --unread-bar-background: rgba(35,45,54,0.25);
+    --white-rgb: (35,45,54);
     --notification-e2e-background: #232d36;
+    --modal-backdrop: rgba(16, 29, 37,0.85);
+    --panel-background-deep: #101d25;
+    --panel-background-deeper:#232d36;
+    --audio-track-incoming:#232d36;
+    --avatar-background:#232d36;
+    --button-background-disabled:#232d36;
+    --gray-100:#232d36;
+    
+    --media-viewer-background: #101d25;
+    --media-viewer-background-rgb: (16, 29, 37);
     
     --compose-background: #cbd4d9;
 }
@@ -58,6 +78,12 @@ body {
 ._1i1U7.jZ4tp {
     background: none !important;
 }
+.JWJN5 {
+    background-color: rgba(16, 29, 37, 0.8) !important;
+}
 .message-in ._3JaNE ._2R8MP, html[dir] .message-in ._3JaNE ._2Ll5c {
     background-color: #232d36 !important;
+}
+._30525 {
+    color: #d1d8dd;
 }
