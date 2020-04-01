@@ -1,5 +1,9 @@
 :root {
     --gray-60: #101d25;
+    --gray-600: #cbd4d9;
+    --gray-700: #cbd4d9;
+    --primary: #cbd4d9;
+    --primary-rgb: 203, 212, 217;
     --border-default: #101d25;
     --conversation-panel-background: #101d25;
     --intro-background: #101d25;
@@ -12,6 +16,7 @@
     --rich-text-panel-background: #101d25;
     --panel-background-lighter: #101d25;
     --panel-background: #232d36;
+    --panel-background-rgb: 35, 45, 54;
     --primary-strong: #d1d8dd;
     --primary-strong-rgb: 209, 216, 221;
     --primary-stronger: #cbd4d9;
@@ -28,10 +33,21 @@
     --incoming-background-deeper: #232d36;
     --outgoing-background: #232d36;
     --outgoing-background-rgb: (16, 29, 37);
+    --outgoing-background-deeper: #232d36;
     --icon-strong-rgb: #d1d8dd;
     --unread-background: rgb(0,0,0,0);
     --unread-bar-background: rgba(35,45,54,0.25);
+    --white: #232d36;
     --white-rgb: (35,45,54);
+    --avatar-placeholder-primary: #232d36;
+    --avatar-placeholder-primary-rgb: (35,45,54);
+    --media-viewer-button-icon: #232d36;
+    --media-viewer-button-icon-rgb: (35,45,54);
+    --button-primary: #232d36;
+    --button-secondary-background: #232d36;
+    --modal-background: #232d36;
+    --status-primary: #232d36;
+    --dropdown-background:#232d36;
     --notification-e2e-background: #232d36;
     --modal-backdrop: rgba(16, 29, 37,0.85);
     --panel-background-deep: #101d25;
@@ -44,7 +60,7 @@
     --media-viewer-background: #101d25;
     --media-viewer-background-rgb: (16, 29, 37);
     
-    --compose-background: #cbd4d9;
+    --compose-background: #232d36;
 }
 body {
     color: #d1d8dd;
