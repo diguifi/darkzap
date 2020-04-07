@@ -1,5 +1,7 @@
 :root {
     --gray-60: #101d25;
+    --gray-100:#232d36;
+    --gray-400:#232d36;
     --gray-600: #cbd4d9;
     --gray-700: #cbd4d9;
     --primary: #cbd4d9;
@@ -17,6 +19,8 @@
     --panel-background-lighter: #101d25;
     --panel-background: #232d36;
     --panel-background-rgb: 35, 45, 54;
+    --panel-background-hover: #232d36;
+    --panel-background-hover-rgb: 35, 45, 54;
     --primary-strong: #d1d8dd;
     --primary-strong-rgb: 209, 216, 221;
     --primary-stronger: #cbd4d9;
@@ -34,6 +38,7 @@
     --outgoing-background: #232d36;
     --outgoing-background-rgb: (16, 29, 37);
     --outgoing-background-deeper: #232d36;
+    --outgoing-background-deeper-rgb: (16, 29, 37);
     --icon-strong-rgb: #d1d8dd;
     --unread-background: rgb(0,0,0,0);
     --unread-bar-background: rgba(35,45,54,0.25);
@@ -55,7 +60,7 @@
     --audio-track-incoming:#232d36;
     --avatar-background:#232d36;
     --button-background-disabled:#232d36;
-    --gray-100:#232d36;
+    --chat-marker: #232d36;
     
     --media-viewer-background: #101d25;
     --media-viewer-background-rgb: (16, 29, 37);
