@@ -8,7 +8,9 @@ storage.get(['darkzap'], (items) => {
         setDarkOn();
     }
     chrome.tabs.query({active: true}, function(tabs) {
-        chrome.tabs.reload(tabs[0].id);
+        if (tabs[0].url.includes("web.whatsapp.com")) {
+          chrome.tabs.reload(tabs[0].id);
+        }
     });
   }
 );

@@ -7,6 +7,8 @@
     --primary: #cbd4d9;
     --primary-rgb: 203, 212, 217;
     --border-default: #101d25;
+	--border-list: #101d25;
+    --border-list-rgb: 16, 29, 37;
     --conversation-panel-background: #101d25;
     --intro-background: #101d25;
     --background-default: #101d25;
