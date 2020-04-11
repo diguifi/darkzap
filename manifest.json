@@ -3,6 +3,11 @@
   "description": "Dark mode for WhatsApp Web",
   "version": "1.0.1",
   "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
 
   "permissions": [
     "tabs",
@@ -21,7 +26,7 @@
   "web_accessible_resources": ["darkzap.css"],
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "icons/icon.png",
     "default_title": "DarkZap",
     "default_popup": "popup.html"
   },
