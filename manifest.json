@@ -1,7 +1,7 @@
 {
   "name": "DarkZap",
   "description": "Dark mode for WhatsApp Web",
-  "version": "1.0",
+  "version": "1.0.1",
   "options_page": "options.html",
 
   "permissions": [
