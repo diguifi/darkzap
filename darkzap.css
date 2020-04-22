@@ -33,6 +33,7 @@
     --icon-strong: #d1d8dd;
         
     --system-message-background: #232d36;
+    --notification-biz-background: #232d36;
     --notification-text: #d1d8dd;
     --system-message-text: #d1d8dd;
     --incoming-background: #232d36;
@@ -59,7 +60,8 @@
     --modal-backdrop: rgba(16, 29, 37,0.85);
     --panel-background-deep: #101d25;
     --panel-background-deeper:#232d36;
-    --audio-track-incoming:#232d36;
+    --audio-track-incoming:#414a51;
+    --audio-track-outgoing: #414a51;
     --avatar-background:#232d36;
     --button-background-disabled:#232d36;
     --chat-marker: #232d36;
