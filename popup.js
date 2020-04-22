@@ -7,10 +7,12 @@ storage.get(['darkzap'], (items) => {
     } else {
         setDarkOn();
     }
-    chrome.tabs.query({active: true}, function(tabs) {
-        if (tabs[0].url.includes("web.whatsapp.com")) {
-          chrome.tabs.reload(tabs[0].id);
-        }
+    chrome.tabs.query({}, function(tabs) {
+        tabs.forEach(tab => {
+          if (tab.url.includes("web.whatsapp.com")) {
+            chrome.tabs.reload(tab.id);
+          }
+        });
     });
   }
 );
