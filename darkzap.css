@@ -7,7 +7,7 @@
     --primary: #cbd4d9;
     --primary-rgb: 203, 212, 217;
     --border-default: #101d25;
-	--border-list: #101d25;
+    --border-list: #101d25;
     --border-list-rgb: 16, 29, 37;
     --conversation-panel-background: #101d25;
     --intro-background: #101d25;
@@ -23,6 +23,10 @@
     --panel-background-rgb: 35, 45, 54;
     --panel-background-hover: #232d36;
     --panel-background-hover-rgb: 35, 45, 54;
+    --drawer-background: #101d25;
+    --drawer-background-rgb: 16, 29, 37;
+    --drawer-section-background: #101d25;
+    --drawer-section-background-rgb: 16, 29, 37;
     --primary-strong: #d1d8dd;
     --primary-strong-rgb: 209, 216, 221;
     --primary-stronger: #cbd4d9;
