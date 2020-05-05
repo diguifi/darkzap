@@ -58,8 +58,12 @@
     --button-primary: #232d36;
     --button-secondary-background: #232d36;
     --modal-background: #232d36;
+    --modal-backdrop-solid: #101d25;
     --status-primary: #232d36;
     --dropdown-background:#232d36;
+    --dropdown-background-hover: #414a51;
+    --dropdown-background-hover-rgb: 65, 74, 81;
+    --notification-e2e-text: #d1d8dd;
     --notification-e2e-background: #232d36;
     --modal-backdrop: rgba(16, 29, 37,0.85);
     --panel-background-deep: #101d25;
@@ -115,4 +119,7 @@ body {
 }
 ._30525 {
     color: #d1d8dd;
+}
+#startup, #initial_startup {
+    background-color: #232d36 !important;
 }
