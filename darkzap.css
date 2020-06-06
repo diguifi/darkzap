@@ -27,6 +27,9 @@
     --drawer-background-rgb: 16, 29, 37;
     --drawer-section-background: #101d25;
     --drawer-section-background-rgb: 16, 29, 37;
+    --bubble-meta:#8c959a;
+    --bubble-meta-icon:#8c959a;
+    --chatlist-icon:#8c959a;
     --primary-strong: #d1d8dd;
     --primary-strong-rgb: 209, 216, 221;
     --primary-stronger: #cbd4d9;
@@ -41,6 +44,7 @@
     --notification-text: #d1d8dd;
     --system-message-text: #d1d8dd;
     --incoming-background: #232d36;
+    --incoming-background-rgb: 35, 45, 54;
     --incoming-background-deeper: #232d36;
     --outgoing-background: #232d36;
     --outgoing-background-rgb: (16, 29, 37);
@@ -59,13 +63,14 @@
     --button-secondary-background: #232d36;
     --modal-background: #232d36;
     --modal-backdrop-solid: #101d25;
-    --status-primary: #232d36;
+    --status-primary: #d1d8dd;
     --dropdown-background:#232d36;
     --dropdown-background-hover: #414a51;
     --dropdown-background-hover-rgb: 65, 74, 81;
     --notification-e2e-text: #d1d8dd;
     --notification-e2e-background: #232d36;
     --modal-backdrop: rgba(16, 29, 37,0.85);
+    --panel-header-background: #101d25;
     --panel-background-deep: #101d25;
     --panel-background-deeper:#232d36;
     --audio-track-incoming:#414a51;
@@ -73,6 +78,9 @@
     --avatar-background:#232d36;
     --button-background-disabled:#232d36;
     --chat-marker: #232d36;
+    --butterbar-default-background: #101d25;
+    --butterbar-primary:#d1d8dd;
+    --butterbar-secondary:#d1d8dd;
     
     --media-viewer-background: #101d25;
     --media-viewer-background-rgb: (16, 29, 37);
@@ -92,6 +100,9 @@ body {
     border-right: none;
 }
 .m6ZEb {
+    display: none !important;
+}
+._2kJqr {
     display: none !important;
 }
 .YUoyu {
