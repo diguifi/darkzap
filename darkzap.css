@@ -38,6 +38,9 @@
     --secondary-lighter: #8c959a;
     --icon-lighter: #8c959a;
     --icon-strong: #d1d8dd;
+    --message-primary: #cbd4d9;
+    --compose-primary: #cbd4d9;
+    --search-input-background: #232d36;
         
     --system-message-background: #232d36;
     --notification-biz-background: #232d36;
@@ -86,6 +89,7 @@
     --media-viewer-background-rgb: (16, 29, 37);
     
     --compose-background: #232d36;
+    --compose-border: #232d36;
 }
 body {
     color: #d1d8dd;
