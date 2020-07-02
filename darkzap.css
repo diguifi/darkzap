@@ -11,6 +11,7 @@
     --border-list-rgb: 16, 29, 37;
     --conversation-panel-background: #101d25;
     --intro-background: #101d25;
+    --intro-secondary: #cbd4d9;
     --background-default: #101d25;
     --border-panel: #101d25;
     --background-default-active: #1c272d;
@@ -40,6 +41,7 @@
     --icon-strong: #d1d8dd;
     --message-primary: #cbd4d9;
     --compose-primary: #cbd4d9;
+    --search-container-background: #232d36;
     --search-input-background: #232d36;
         
     --system-message-background: #232d36;
@@ -88,6 +90,8 @@
     --media-viewer-background: #101d25;
     --media-viewer-background-rgb: (16, 29, 37);
     
+    --compose-input-background: #232d36;
+    --compose-input-border: #232d36;
     --compose-background: #232d36;
     --compose-border: #232d36;
 }
